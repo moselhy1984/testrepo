@@ -147,7 +147,7 @@ def main():
     
     # Schedule a story
     story_data = scheduler.schedule_story(
-        media_path="path/to/your/media.jpg",
+        media_path="/media.jpg",
         scheduled_time=datetime.now() + timedelta(hours=1),
         caption="Check out our new product launch! #newproduct"
     )
